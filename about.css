@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#content {
+    margin-top: 2%;
+    padding: 2%;
+    background-color: #32527b;
+}
+
+.about-img {
+    border: 4px solid wheat;
+}
+
+.about-p {
+    padding: 1%;
+    margin-top: 5px;
+    color: black;
+    font: 1.5em;
+}

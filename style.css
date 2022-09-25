@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(250, 245, 234) !important;
+}
+
+.container-fluid {
+    padding: 0 !important;
+}
+
+#title {
+    padding: 10%;
+    background-color: #32527b;
+    /* background-image: url('https://cdn.pixabay.com/photo/2018/02/25/00/07/background-3179527_960_720.jpg'); */
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/11/17/13/knitting-1972345__340.jpg');
+    opacity: 1;
+    /* background-repeat: no-repeat; */
+    /* background-color: linear-gradient(#32527b, white) !important; */
+}
+
+.title-pro {
+    border: 4px solid wheat;
+    /* justify-content: center; */
+}
+
+.data {
+    font-style: italic;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    /* font-family: 'Ubuntu'; */
+    font-size: 2rem;
+    /* background-color: blue; */
+    color: #FFF;
+    font-family: 'Lemonada';
+}
+
+#research {
+    padding: 0 5% 5% 5%;
+}
+
+.hr {
+    margin: 5%;
+}
+
+.hh {
+    background-color: yellow;
+    background-image: url('image/kisan/research/res.jpg');
+}
+
+.heading {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.content {
+    padding: 5px;
+}
+
+.buton {
+    padding: 10px;
+}
+
+#logo {
+    /* background-color: #32527b; */
+    margin: 5%;
+}
+
+.company {
+    padding: 2%;
+}
+
+#gallary {
+    margin: 5%;
+    /* background-color: chartreuse; */
+}
+
+.img-cro {
+    height: 100vh;
+}
+
+.research {
+    margin-bottom: 10px !important;
+}
+
+#about {
+    margin: 5%;
+}
+
+.about {
+    margin-bottom: 10px !important;
+}
+
+.about-p {
+    text-align: center;
+    padding: 1%;
+    margin-top: 5px;
+    color: black;
+    font-size: 1.5em;
+    font-family: 'Lemonada';
+}
+
+.about-p1 {
+    padding: 1%;
+    margin-top: 5px;
+    color: black;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.value {
+    border: 5px solid white;
+    color: black;
+    padding: 5%;
+}
+
+.value-ele {
+    font-weight: bold;
+    padding: 1% 1% 1% 0;
+    color: black;
+    font-size: 1.5em;
+}
+
+.design,
+.research,
+.experince,
+.about {
+    text-align: center;
+    font-size: 3rem;
+    padding: 2%;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    color: #FFF;
+    background-color: #32527b;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
+#myBtn {
+    /* display: none; */
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: black;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
